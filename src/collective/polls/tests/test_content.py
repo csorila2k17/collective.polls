@@ -17,7 +17,7 @@ from plone.uuid.interfaces import IAttributeUUID
 from zope.component import createObject
 from zope.component import queryUtility
 
-import unittest
+import unittest2 as unittest
 
 
 class MockPoll(object):

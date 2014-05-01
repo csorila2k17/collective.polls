@@ -5,7 +5,7 @@ from collective.polls.testing import INTEGRATION_TESTING
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 
-import unittest
+import unittest2 as unittest
 
 JAVASCRIPTS = [
     '++resource++collective.polls/js/jquery.flot.js',

@@ -10,7 +10,7 @@ from plone.app.testing import TEST_USER_ID
 from plone.app.testing import TEST_USER_NAME
 from Products.CMFCore.WorkflowCore import WorkflowException
 
-import unittest
+import unittest2 as unittest
 
 ctype = 'collective.polls.poll'
 workflow_id = 'poll_workflow'

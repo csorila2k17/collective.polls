@@ -63,10 +63,11 @@ setup(name='collective.polls',
       ],
       extras_require={
           'test': [
-              'plone.app.testing',
+              'plone.app.testing [robot] >=4.2.2',
               'plone.testing',
               'robotframework-selenium2library',
               'robotsuite',
+              'unittest2',
           ],
       },
       entry_points="""

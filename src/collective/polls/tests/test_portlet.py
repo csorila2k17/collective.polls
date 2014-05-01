@@ -21,8 +21,7 @@ from zope.component import queryUtility
 from zope.i18n import translate
 from zope.interface import alsoProvides
 
-
-import unittest
+import unittest2 as unittest
 
 
 class BasePortlet(unittest.TestCase):

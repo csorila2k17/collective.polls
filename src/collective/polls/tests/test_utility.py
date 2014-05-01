@@ -8,7 +8,7 @@ from plone.app.testing import logout
 from plone.uuid.interfaces import IUUID
 from zope.component import queryUtility
 
-import unittest
+import unittest2 as unittest
 
 
 class IntegrationTest(unittest.TestCase):
