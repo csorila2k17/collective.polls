@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.polls\n"
-"POT-Creation-Date: 2014-08-13 12:42+0000\n"
+"POT-Creation-Date: 2014-11-05 20:34+0000\n"
 "PO-Revision-Date: 2012-12-05 17:38-0300\n"
 "Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
 "Language-Team: Spanish <>\n"
@@ -24,6 +24,14 @@ msgstr "Un complemento que brinda la posibilidad de crear encuestas en Plone."
 #: collective/polls/profiles/default/types/collective.polls.poll.xml
 msgid "A poll"
 msgstr "Una encuesta"
+
+#: collective/polls/widgets/enhancedtextlines.py:40
+msgid "Add"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:41
+msgid "Add Option"
+msgstr ""
 
 #: collective/polls/portlet/voteportlet.py:83
 msgid "Add a link to the poll"
@@ -52,6 +60,14 @@ msgstr "Opciones disponibles:"
 #: collective/polls/content/poll.py:29
 msgid "Bar Chart"
 msgstr "Gráfico de barras"
+
+#: collective/polls/widgets/enhancedtextlines.py:42
+msgid "Delete Option"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:43
+msgid "Edit Option"
+msgstr ""
 
 #: collective/polls/content/poll.py:65
 msgid "Format to show the results."

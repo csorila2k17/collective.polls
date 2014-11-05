@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.polls\n"
-"POT-Creation-Date: 2014-08-13 12:42+0000\n"
+"POT-Creation-Date: 2014-11-05 20:34+0000\n"
 "PO-Revision-Date: 2014-08-31 11:29+0100\n"
 "Last-Translator: Radim Novotny <novotny.radim@gmail.com>\n"
 "Language-Team: CS <cs@li.org>\n"
@@ -27,6 +27,14 @@ msgstr "Přídavný produkt s možnostmi anket"
 msgid "A poll"
 msgstr "Anketa"
 
+#: collective/polls/widgets/enhancedtextlines.py:40
+msgid "Add"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:41
+msgid "Add Option"
+msgstr ""
+
 #: collective/polls/portlet/voteportlet.py:83
 msgid "Add a link to the poll"
 msgstr "Přidat odkaz na anketu"
@@ -36,22 +44,12 @@ msgid "Allow anonymous"
 msgstr "Povolit hlasování anonymům"
 
 #: collective/polls/content/poll.py:44
-msgid ""
-"Allow not logged in users to vote. The parent folder of this poll should be "
-"published before opeining the poll for this field to take effect"
-msgstr ""
-"Povolit hlasování nepřihlášeným uživatelům. Nadřazená složka, ve které je "
-"hlasování umístěno, by měla být zveřejněna."
+msgid "Allow not logged in users to vote. The parent folder of this poll should be published before opeining the poll for this field to take effect"
+msgstr "Povolit hlasování nepřihlášeným uživatelům. Nadřazená složka, ve které je hlasování umístěno, by měla být zveřejněna."
 
 #: collective/polls/content/poll.py:296
-msgid ""
-"Anonymous user won't be able to vote, you forgot to publish the parent "
-"folder, you must sent back the poll to private state, publish the parent "
-"folder and open the poll again"
-msgstr ""
-"Nepřihlášení uživatele nebudou moci v této anketě hlasovat. Zapomněli jste "
-"zpřístupnit nadřazenou složku. Musíte nejprve stáhnout ankety, pak zveřejnit "
-"nadřazenou složku a pak znovu hlasování otevřít."
+msgid "Anonymous user won't be able to vote, you forgot to publish the parent folder, you must sent back the poll to private state, publish the parent folder and open the poll again"
+msgstr "Nepřihlášení uživatele nebudou moci v této anketě hlasovat. Zapomněli jste zpřístupnit nadřazenou složku. Musíte nejprve stáhnout ankety, pak zveřejnit nadřazenou složku a pak znovu hlasování otevřít."
 
 #: collective/polls/content/poll.py:73
 msgid "Available options"
@@ -64,6 +62,14 @@ msgstr "Možnosti:"
 #: collective/polls/content/poll.py:29
 msgid "Bar Chart"
 msgstr "Sloupcový graf"
+
+#: collective/polls/widgets/enhancedtextlines.py:42
+msgid "Delete Option"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:43
+msgid "Edit Option"
+msgstr ""
 
 #: collective/polls/content/poll.py:65
 msgid "Format to show the results."
@@ -78,12 +84,8 @@ msgid "Header"
 msgstr "Nadpis"
 
 #: collective/polls/portlet/voteportlet.py:76
-msgid ""
-"If there is no available open poll or the chosen poll is already closed, "
-"should the porlet show the results instead."
-msgstr ""
-"Pokud není žádná otevřená anketa, nebo pokud je vybraná anketa uzavřena, "
-"mají se místo ankety zobrazit výsledky ? "
+msgid "If there is no available open poll or the chosen poll is already closed, should the porlet show the results instead."
+msgstr "Pokud není žádná otevřená anketa, nebo pokud je vybraná anketa uzavřena, mají se místo ankety zobrazit výsledky ? "
 
 #: collective/polls/content/poll.py:316
 msgid "Invalid option"
@@ -145,8 +147,7 @@ msgstr "Zobrazit výsledky poté, co uživatel odešle svoji volbu."
 
 #: collective/polls/portlet/voteportlet.py:70
 msgid "Show the number of collected votes so far."
-msgstr ""
-"Zobrazit celkový počet výsledků, které byly do současné chvíle shromážděny."
+msgstr "Zobrazit celkový počet výsledků, které byly do současné chvíle shromážděny."
 
 #: collective/polls/portlet/voteportlet.py:69
 msgid "Show total votes"
@@ -197,3 +198,4 @@ msgstr "Musíte definovat alespoň dvě možnosti v anketě."
 #: collective/polls/portlet/voteportlet.pt:97
 msgid "spinner"
 msgstr "spinner"
+

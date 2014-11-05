@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-13 12:42+0000\n"
+"POT-Creation-Date: 2014-11-05 20:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,14 @@ msgstr "Een Plone add-on met enquête content-type, portlets en bijbhorende work
 #: collective/polls/profiles/default/types/collective.polls.poll.xml
 msgid "A poll"
 msgstr "Een enquête"
+
+#: collective/polls/widgets/enhancedtextlines.py:40
+msgid "Add"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:41
+msgid "Add Option"
+msgstr ""
 
 #: collective/polls/portlet/voteportlet.py:83
 msgid "Add a link to the poll"
@@ -49,6 +57,14 @@ msgstr "Beschikbare opties:"
 #: collective/polls/content/poll.py:29
 msgid "Bar Chart"
 msgstr "Staafdiagram"
+
+#: collective/polls/widgets/enhancedtextlines.py:42
+msgid "Delete Option"
+msgstr ""
+
+#: collective/polls/widgets/enhancedtextlines.py:43
+msgid "Edit Option"
+msgstr ""
 
 #: collective/polls/content/poll.py:65
 msgid "Format to show the results."
