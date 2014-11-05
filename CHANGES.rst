@@ -9,6 +9,17 @@ There's a frood who really knows where his towel is.
 - Added Czech translation
   [naro]
 
+- Added Catalan translation / update Spanish one
+  [sneridagh]
+
+- Removed dependency on collective.z3cform.widgets. Transferred
+  EnhancedTextLinesFieldWidget functionality from it into the package. Tests
+  also transferred.
+  [sneridagh]
+
+- Make the robot tests run again by updating RF/SL versions.
+  [sneridagh]
+
 
 1.6.1 (2014-08-19)
 ^^^^^^^^^^^^^^^^^^

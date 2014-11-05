@@ -14,6 +14,7 @@ the following people:
 - Maurits van Rees
 - Jean-Michel FRANCOIS
 - `WebDesignerDepot`_ (icon)
+- Víctor Fernández de Alba
 
 You can find an updated list of package contributors on `GitHub`_.
 
