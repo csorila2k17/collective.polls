@@ -42,7 +42,6 @@ setup(name='collective.polls',
       zip_safe=False,
       install_requires=[
           'AccessControl',
-          'collective.z3cform.widgets >=1.0b3',
           'five.grok',
           'plone.api',
           'plone.app.dexterity [grok, relations]',
