@@ -1,19 +1,15 @@
 # -*- coding: utf-8 -*-
-
 from Acquisition import aq_parent
-from Products.CMFCore.interfaces import IActionSucceededEvent
 from Products.CMFCore.interfaces import ISiteRoot
 from collective.polls.config import MEMBERS_ANNO_KEY
 from collective.polls.config import PERMISSION_VOTE
 from collective.polls.config import VOTE_ANNO_KEY
-from collective.polls.content.poll import IPoll
-from five import grok
+
 
 ALL_ROLES = ['Anonymous', 'Contributor', 'Editor', 'Manager', 'Member',
              'Reader', 'Reviewer', 'Site Administrator']
 
 
-@grok.subscribe(IPoll, IActionSucceededEvent)
 def fix_permissions(poll, event):
     """Fix permission on poll object if allow_anonymous is enabled."""
     if event.action in ['open', ]:
@@ -31,7 +27,6 @@ def fix_permissions(poll, event):
                                    acquire=0)
 
 
-@grok.subscribe(IPoll, IActionSucceededEvent)
 def remove_votes(poll, event):
     """Remove existing votes on poll object if reject transaction happens."""
     if event.action in ['reject', ]:
